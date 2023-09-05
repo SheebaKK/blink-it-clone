@@ -1,5 +1,5 @@
 
-@import url('/variables.css');
+@import url('variables.css');
 
 *{
     margin: 0;
@@ -125,11 +125,7 @@ grid-template-columns: repeat(10,1fr);
     width: 128px;
     height: 189px;
 }
-.items{
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-} 
+
 .items-head{
     display: flex;
     justify-content: space-between;
@@ -208,10 +204,4 @@ footer{
 .fa-heart{
     color: red;
     padding: 0 2px;
-}
-
-@media screen and (max-width: 768px){
-
-
-
 }
